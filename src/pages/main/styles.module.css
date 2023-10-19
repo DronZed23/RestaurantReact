@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Unbounded&family=Ysabeau+Infant:ital@1&display=swap');
+
+.mainHeader{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background: #ffff;
+    width: 100%;
+    padding: 25px 155px 25px 151px;
+    height: 104px;
+    color: aliceblue;
+    z-index: 1;
+
+}
+
+.logoName{
+
+    height: 30px;
+    color: #474747;
+    font-size: 43px;
+    display: inline-block;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.logoPicture{
+    width: 55px;
+    height: 54px;
+    margin-right: 13px;
+}
+
+.headerSideBar{
+    width: 521px;
+    height: 32px;
+    border-radius: 34px;
+    margin-left: 274px;
+    margin-right: 100px;
+}
+
+.headerSideBarButtons{
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 34px;
+    padding: 4px 16px 4px 16px;
+}
+
+.headerSideBarActiveButton{
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 34px;
+    background: #DBDFD0;
+    padding: 4px 16px 4px 16px;
+}
+
+.headerSideBarBookATableButton{
+    width: 147px;
+    height: 48px;
+    border-radius: 118px;
+    border: 2px solid #2C2F24
+}
+
+.landingImg{
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    padding: 334px 466px 65px 466px;
+}
+.landingSlogan{
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 96px;
+    color: #2C2F24;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.landingSloganDescription{
+    font-family: sans-serif DM Sans ;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.redBookATableButton{
+    width: 163px;
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    background: #AD343E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: aliceblue;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.exploreMenuButton{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    width: 170px;
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    border: 2px solid #2C2F24
+}
+
+.cardsToMenuContainer{
+    padding: 92px 104px 120px 144px;
+}
+
+.textBrowseOurMenu{
+    margin-bottom: 64px;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    text-align: center;
+
+
+}
+
+.cardToMenuContainer{
+    width: 306px;
+    height: 375px;
+    border-radius: 12px;
+    border: 2px solid #DBDFD0;
+    padding: 40px 34px 32px 34px;
+    display: inline-block;
+    margin-left: 24px;
+
+}
+
+.cardToMenuPicture{
+    margin: 0 69px 30px 69px;
+}
+
+.cardToMenuName{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #2C2F24;
+}
+
+.cardsToMenuDescription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cardsToMenuButton{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #AD343E;
+    margin: 0 64px 0 64px ;
+}
+.aboutUsContainer{
+    padding: 120px 152px 120px 152px;
+    background: #F9F9F7;
+}
+.aboutUsItemContainer{
+    position: relative;
+}
+.comeAndVisitUsContainer{
+    position: absolute;
+    width: 411px;
+    height: 321px;
+    top: 295px;
+    left: 238px;
+    border-radius: 12px;
+    background: #474747;
+    padding: 50px 50px 50px 50px;
+
+}
+.comeAndVisitUsText{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 195px;
+    height: 30px;
+    color: #F9F9F7;
+    margin-bottom: 45px;
+}
+
+.phoneMailMapNumber{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #F9F9F7;
+    margin-bottom: 25px;
+}
+.mailPhoneMapIcon{
+    margin-right: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+.comeAndVisitUsContainerArticle{
+    width: 557px;
+    height: 457px;
+    position: absolute;
+    top: 79px;
+    right: 0;
+}
+
+.comeAndVisitUsArticleName{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.comeAndVisitUsArticleDescription{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #2C2F24;
+    margin-bottom: 24px;
+}
+.comeAndVisitUsArticleDescription2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #2C2F24;
+    margin-bottom: 40px;
+}
+
+.moreAboutUsButton{
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    border: 2px solid #2C2F24;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.eventListContainer{
+    width: 1600px;
+    height: 868px;
+    padding: 120px 128px 120px 152px;
+    background: #ffff;
+}
+.eventListName{
+    width: 675px;
+    height: 121px;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    text-align: left;
+    margin-bottom: 64px;
+}
+.eventCard{
+    width: 306px;
+    height: 443px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-right: 24px;
+
+}
+.eventCardName{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.eventCardDescription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #414536;
+}
+
+
+
