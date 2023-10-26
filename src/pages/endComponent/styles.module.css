@@ -1,0 +1,76 @@
+.endContainer{
+    height: 778px;
+    background: #474747;
+    padding: 120px 152px 85px 152px;
+}
+
+.endItemsContainer{
+    position: relative;
+}
+
+.endLozungContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 293px;
+    height: 222px;
+
+}
+
+.endPagesContainer{
+    position: absolute;
+    top: 0;
+    left: 428px;
+    width: 330px;
+    height: 352px;
+
+}
+
+.endFollowUsInInstagram{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 403px;
+    height: 419px;
+}
+
+.endBistroContainer{
+    display: flex;
+    justify-content: left;
+
+    flex-direction: column;
+}
+
+.endBistroLogoContainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.endBistroLogo{
+    margin-right: 8px;
+}
+.endBistroBlissText{
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.endLozungDescription{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 24px;
+    text-align: left;
+    color: #ADB29E;
+
+}
+
+.massagersImg{
+    margin-right: 12px;
+    display: inline-block;
+}

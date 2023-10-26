@@ -8,7 +8,7 @@
     background: #ffff;
     width: 100%;
     padding: 25px 155px 25px 151px;
-    height: 104px;
+    max-height: 104px;
     color: aliceblue;
     z-index: 1;
 
@@ -16,7 +16,6 @@
 
 .logoName{
 
-    height: 30px;
     color: #474747;
     font-size: 43px;
     display: inline-block;
@@ -49,7 +48,7 @@
     padding: 4px 16px 4px 16px;
 }
 
-.headerSideBarActiveButton{
+.headerSideBarButtons:hover{
     margin-right: 8px;
     font-size: 16px;
     font-weight: 500;
@@ -60,11 +59,41 @@
     padding: 4px 16px 4px 16px;
 }
 
+
+.headerSideBarActiveButton{
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 34px;
+    background: #DBDFD0;
+    padding: 4px 16px 4px 16px;
+}
+.headerSideBarActiveButton:hover{
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 34px;
+    background: #95a174;
+    padding: 4px 16px 4px 16px;
+}
+
 .headerSideBarBookATableButton{
     width: 147px;
     height: 48px;
     border-radius: 118px;
     border: 2px solid #2C2F24
+}
+.headerSideBarBookATableButton:hover{
+    width: 147px;
+    height: 48px;
+    border-radius: 118px;
+    border: 2px solid #2C2F24;
+    background: #AD343E;
+    color: aliceblue;
 }
 
 .landingImg{
@@ -109,6 +138,20 @@
     margin-right: 16px;
 }
 
+.redBookATableButton:hover{
+    width: 163px;
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    background: #852830;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: aliceblue;
+    text-align: center;
+    margin-right: 16px;
+}
+
 .exploreMenuButton{
     font-size: 16px;
     font-weight: 500;
@@ -119,6 +162,20 @@
     padding: 20px 32px 20px 32px;
     border-radius: 118px;
     border: 2px solid #2C2F24
+}
+
+.exploreMenuButton:hover{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    width: 170px;
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    border: 2px solid #2C2F24;
+    background: #2C2F24;
+    color: #F9F9F7;
 }
 
 .cardsToMenuContainer{
@@ -172,8 +229,18 @@
     line-height: 24px;
     text-align: center;
     color: #AD343E;
+    margin: 0 64px 0 64px;
+}
+
+.cardsToMenuButton:hover{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #474747;
     margin: 0 64px 0 64px ;
 }
+
 .aboutUsContainer{
     padding: 120px 152px 120px 152px;
     background: #F9F9F7;
@@ -258,8 +325,20 @@
     font-weight: 600;
     line-height: 24px;
 }
+
+.moreAboutUsButton:hover{
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    border: 2px solid #2C2F24;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background: #AD343E;
+    color: #F9F9F7;
+}
+
 .eventListContainer{
-    width: 1600px;
     height: 868px;
     padding: 120px 128px 120px 152px;
     background: #ffff;
@@ -272,6 +351,10 @@
     line-height: 61px;
     text-align: left;
     margin-bottom: 64px;
+}
+.CardContainer{
+    display: flex;
+    justify-content: center;
 }
 .eventCard{
     width: 306px;
@@ -294,6 +377,306 @@
     line-height: 24px;
     color: #414536;
 }
+
+.fastestDeliveryContainer{
+    padding: 120px 152px 120px 152px;
+    min-height: 627px;
+    min-width: 1296px;
+    background:#F9F9F7;
+}
+
+.fastestDeliveryItemsContainer{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    height: 627px;
+
+}
+
+.soapImg{
+    margin-top: 30px;
+    margin-left: 24px;
+}
+.grilledMeal{
+    position: absolute;
+    top: 387px;
+    left: 455px;
+}
+
+.fastestDeliveryTextContainer{
+    position: absolute;
+    top: 129px;
+    right: 0;
+}
+
+.fastestDeliveryTextName{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    text-align: left;
+    max-width: 461px;
+    margin-bottom: 20px;
+}
+
+.fastestDeliveryTextDescription{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #414536;
+    max-width: 414px;
+    margin-bottom: 50px;
+}
+.TimerCheckMarketContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.TimerCheckMarketImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 65px;
+    margin-right: 20px;
+}
+.TimerCheckMarketDescription{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.ourCustomersSayContainer{
+    height: 766px;
+    padding: 98px 152px 135px 152px;
+}
+
+.ourCustomersSayTitle{
+    margin-bottom: 64px;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    text-align: center;
+
+}
+.ourCustomersSayItemsContainer{
+    display: flex;
+    justify-content: center;
+}
+.ourCustomerCardsContainer{
+    display: flex;
+    justify-content: center;
+}
+.ourCustomerCardContainer{
+    width: 416px;
+    height: 408px;
+    border-radius: 12px;
+    position: relative;
+    display: inline-block;
+    margin-right: 24px;
+    background: #F9F9F7;
+
+}
+
+.ourCustomerCardTitle{
+    position: absolute;
+    top: 45px;
+    left: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #AD343E;
+}
+
+.ourCustomerCardDescription{
+    position: absolute;
+    top: 99px;
+    left: 35px;
+    width: 346px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.ourCustomerCardLine {
+    min-width: 346px;
+    position: absolute;
+    top: 271px;
+    border: 1px solid #DBDFD0;
+}
+
+.ourCustomerCardPersonIcon{
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+}
+
+.ourCustomerCardPersonPlace{
+    position: absolute;
+    bottom: 72px;
+    left: 125px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+}
+.ourCustomerCardPersonName{
+    position: absolute;
+    bottom: 45px;
+    left: 125px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #414536;
+
+}
+
+.blogContainer{
+    position: relative;
+    height: 1117px;
+    background: #F9F9F7;
+    padding: 120px 152px 137px 152px;
+}
+.blogItemsContainer{
+    display: flex;
+    justify-content: center;
+}
+.blogTitle{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    text-align: left;
+    margin-bottom: 64px;
+}
+
+.blogReadAllButton{
+    position: absolute;
+    right: 184px;
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    background: #AD343E;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.blogReadAllButton:hover{
+    position: absolute;
+    right: 184px;
+    height: 64px;
+    padding: 20px 32px 20px 32px;
+    border-radius: 118px;
+    background: #852830;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.blogBigCardContainer{
+    width: 636px;
+    height: 732px;
+    border-radius: 12px;
+    border: 1px solid #F9F9F7;
+    position: relative;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.blogBigCardImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blogBigCardDate{
+    position: absolute;
+    top: 501px;
+    left: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+.blogBigCardTitle{
+    position: absolute;
+    width: 568px;
+    top: 540px;
+    left: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.blogBigCardDescription{
+    position: absolute;
+    top: 607px;
+    left: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #414536;
+    text-align: left;
+
+}
+
+.blogSmallCardsContainer{
+    width: 664px;
+    height: 732px;
+    display: inline-block;
+}
+
+.blogSmallCardContainer{
+    width: 306px;
+    height: 354px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    position: relative;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.blogSmallCardImg{
+    position: absolute;
+    width: 306px;
+    height: 200px;
+    top: 0;
+    left: 0;
+
+}
+
+.blogSmallCardDate{
+    position: absolute;
+    top: 230px;
+    left: 25px;
+
+}
+
+.blogSmallCardTitle{
+    width: 256px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    position: absolute;
+    top: 262px;
+    left: 25px;
+}
+
+
 
 
 
