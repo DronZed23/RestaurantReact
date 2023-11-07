@@ -1,106 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Unbounded&family=Ysabeau+Infant:ital@1&display=swap');
 
-.mainHeader{
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    background: #ffff;
-    width: 100%;
-    padding: 25px 155px 25px 151px;
-    max-height: 104px;
-    color: aliceblue;
-    z-index: 1;
-
-}
-
-.logoName{
-
-    color: #474747;
-    font-size: 43px;
-    display: inline-block;
-    font-weight: 600;
-    text-align: left;
-
-}
-
-.logoPicture{
-    width: 55px;
-    height: 54px;
-    margin-right: 13px;
-}
-
-.headerSideBar{
-    width: 521px;
-    height: 32px;
-    border-radius: 34px;
-    margin-left: 274px;
-    margin-right: 100px;
-}
-
-.headerSideBarButtons{
-    margin-right: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    border-radius: 34px;
-    padding: 4px 16px 4px 16px;
-}
-
-.headerSideBarButtons:hover{
-    margin-right: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    border-radius: 34px;
-    background: #DBDFD0;
-    padding: 4px 16px 4px 16px;
-}
-
-
-.headerSideBarActiveButton{
-    margin-right: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    border-radius: 34px;
-    background: #DBDFD0;
-    padding: 4px 16px 4px 16px;
-}
-.headerSideBarActiveButton:hover{
-    margin-right: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    border-radius: 34px;
-    background: #95a174;
-    padding: 4px 16px 4px 16px;
-}
-
-.headerSideBarBookATableButton{
-    width: 147px;
-    height: 48px;
-    border-radius: 118px;
-    border: 2px solid #2C2F24
-}
-.headerSideBarBookATableButton:hover{
-    width: 147px;
-    height: 48px;
-    border-radius: 118px;
-    border: 2px solid #2C2F24;
-    background: #AD343E;
-    color: aliceblue;
-}
-
 .landingImg{
     background-image: url("img/bg.png");
     background-repeat: no-repeat;
     background-size: 100%;
-
     padding: 334px 466px 65px 466px;
 }
 .landingSlogan{
@@ -634,7 +537,7 @@
 }
 
 .blogSmallCardsContainer{
-    width: 664px;
+    width: 680px;
     height: 732px;
     display: inline-block;
 }
@@ -674,6 +577,12 @@
     position: absolute;
     top: 262px;
     left: 25px;
+}
+
+@media screen and (max-width: 1609px) {
+    .pathContainer{
+        display: none;
+    }
 }
 
 

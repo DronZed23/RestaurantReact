@@ -14,6 +14,9 @@ import Friedfish from "../pages/main/img/friedFish.png"
 import FriedChicken from "../pages/main/img/friedChicken.png"
 import Pancakes from "../pages/main/img/pancakes.png"
 import Pizza from "../pages/main/img/pizza.png"
+import {styles} from "../pages/helperComponents/header/styles.module.css";
+
+
 export const cardToMenuData =[{
     id: 1,
     img: CofeePicture,
@@ -134,5 +137,48 @@ export const blogData =[
         date: "January 3, 2023",
         articleName: "5 great pizza restaurants you should visit this city",
         articleDescription: ""
+    },
+]
+
+export const HeaderActiveData = [
+    {
+       id: 1,
+        button1: 1,
+        button2: 0,
+        button3: 0,
+        button4: 0,
+        button5: 0,
+    },
+    {
+        id: 2,
+        button1: 0,
+        button2: 1,
+        button3: 0,
+        button4: 0,
+        button5: 0,
+    },
+    {
+        id: 3,
+        button1: 0,
+        button2: 0,
+        button3: 0,
+        button4: 1,
+        button5: 0,
+    },
+    {
+        id: 4,
+        button1: 0,
+        button2: 0,
+        button3: 0,
+        button4: 1,
+        button5: 0,
+    },
+    {
+        id: 5,
+        button1: 0,
+        button2: 0,
+        button3: 0,
+        button4: 0,
+        button5: 1,
     },
 ]

@@ -1,0 +1,82 @@
+
+.aboutUsComeAndVisit{
+    padding: 214px 152px 120px 152px;
+    background: #F9F9F7;
+}
+.aboutUsComeAndVisitItemsContainer{
+    position: relative;
+    height: 616px;
+}
+
+.aboutUsComeAndVisitImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.comeAndVisitUsContainer{
+    position: absolute;
+    width: 411px;
+    height: 321px;
+    top: 295px;
+    left: 238px;
+    border-radius: 12px;
+    background: #474747;
+    padding: 50px 50px 50px 50px;
+
+}
+.comeAndVisitUsText{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 195px;
+    height: 30px;
+    color: #F9F9F7;
+    margin-bottom: 45px;
+}
+
+.phoneMailMapNumber{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #F9F9F7;
+    margin-bottom: 25px;
+}
+.mailPhoneMapIcon{
+    margin-right: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+.comeAndVisitUsContainerArticle{
+    width: 557px;
+    height: 457px;
+    position: absolute;
+    top: 79px;
+    right: 0;
+}
+
+.comeAndVisitUsArticleName{
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 61px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.comeAndVisitUsArticleDescription{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #2C2F24;
+    margin-bottom: 24px;
+}
+.comeAndVisitUsArticleDescription2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #414536;
+    margin-bottom: 40px;
+}

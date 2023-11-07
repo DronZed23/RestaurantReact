@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import styles from './styles.module.css';
-import {LogoPicture} from "./img/LogoPicture";
+import {LogoPicture} from "../helperComponents/header/LogoPicture";
 import {CardToMenu} from "./helper/cardToMenu";
 import Burito from "./img/buritoImage.png";
 import Cooking from "./img/cooking.png";
@@ -16,23 +16,20 @@ import {MarketImage} from "./img/marketImage";
 import {CustomerCard} from "./helper/ourCustomerCard";
 import {BlogCard} from "./helper/blogCard";
 import {EndComponent} from "../endComponent/endComponent";
+import {Header} from "../helperComponents/header/header";
 
 
 export const MainPage = () => {
+
+    const navigate = useNavigate();
+
+    const handleOpenAboutUs = () => {
+        navigate('/aboutUs');
+    };
+
     return (
-        <div>
-            <header className={styles.mainHeader}>
-                <LogoPicture className={styles.logoPicture}/>
-                <p className={styles.logoName}>Bistro Bliss</p>
-                <div className={styles.headerSideBar}>
-                <button className={styles.headerSideBarActiveButton}>Home</button>
-                <button className={styles.headerSideBarButtons}>About</button>
-                <button className={styles.headerSideBarButtons}>Menu</button>
-                <button className={styles.headerSideBarButtons}>Pages</button>
-                <button className={styles.headerSideBarButtons}>Contact</button>
-                </div>
-                <button className={styles.headerSideBarBookATableButton}>Book A Table</button>
-            </header>
+        <div className={styles.pathContainer}>
+           <Header ide={1}/>
             <div className={styles.landingImg}>
                     <h1 className={styles.landingSlogan}>Best food for your taste</h1>
                     <p className={styles.landingSloganDescription}>Discover delectable cuisine and
@@ -83,7 +80,7 @@ export const MainPage = () => {
                         <p className={styles.comeAndVisitUsArticleDescription2}>At place, we believe that dining is not just about food, but also about the overall
                             experience. Our staff, renowned for their warmth and dedication, strives to make
                             every visit an unforgettable event.</p>
-                        <button className={styles.moreAboutUsButton}>More About Us</button>
+                        <button className={styles.moreAboutUsButton} onClick={handleOpenAboutUs}>More About Us</button>
                     </div>
                 </div>
 
