@@ -17,6 +17,9 @@ export const Header = ({ide} : Props) => {
     const handleOpenMain = () => {
         navigate('/main');
     };
+    const handleOpenMenu = () => {
+        navigate('/menu');
+    };
     return (
         <>
             {HeaderActiveData.map(item => item.id === ide &&
@@ -26,7 +29,7 @@ export const Header = ({ide} : Props) => {
                     <div className={styles.headerSideBar}>
                         <button className={item.button1 === 1 ? styles.headerSideBarActiveButton : styles.headerSideBarButtons} onClick={handleOpenMain}>Home</button>
                         <button className={item.button2 === 1 ? styles.headerSideBarActiveButton : styles.headerSideBarButtons} onClick={handleOpenAboutUs}>About</button>
-                        <button className={item.button3 === 1 ? styles.headerSideBarActiveButton : styles.headerSideBarButtons}>Menu</button>
+                        <button className={item.button3 === 1 ? styles.headerSideBarActiveButton : styles.headerSideBarButtons} onClick={handleOpenMenu}>Menu</button>
                         <button className={item.button4 === 1 ? styles.headerSideBarActiveButton : styles.headerSideBarButtons}>Pages</button>
                         <button className={item.button5 === 1 ? styles.headerSideBarActiveButton : styles.headerSideBarButtons}>Contact</button>
                     </div>

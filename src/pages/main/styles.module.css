@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Unbounded&family=Ysabeau+Infant:ital@1&display=swap');
 
+.warningMessageContainer{
+    display: none;
+}
 .landingImg{
     background-image: url("img/bg.png");
     background-repeat: no-repeat;
@@ -582,6 +585,16 @@
 @media screen and (max-width: 1609px) {
     .pathContainer{
         display: none;
+    }
+
+    .warningMessageContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .warningMessage{
+        width: 393px;
+        text-align: center;
     }
 }
 

@@ -15,6 +15,7 @@ import FriedChicken from "../pages/main/img/friedChicken.png"
 import Pancakes from "../pages/main/img/pancakes.png"
 import Pizza from "../pages/main/img/pizza.png"
 import {styles} from "../pages/helperComponents/header/styles.module.css";
+import {MultiCuisine} from "../pages/aboutUs/img/MultiCuisine";
 
 
 export const cardToMenuData =[{
@@ -161,8 +162,8 @@ export const HeaderActiveData = [
         id: 3,
         button1: 0,
         button2: 0,
-        button3: 0,
-        button4: 1,
+        button3: 1,
+        button4: 0,
         button5: 0,
     },
     {
@@ -180,5 +181,48 @@ export const HeaderActiveData = [
         button3: 0,
         button4: 0,
         button5: 1,
+    },
+]
+
+export const FeelTheAuthenticData = [
+    {
+        id: 1,
+        img: MultiCuisine,
+        name: "Multi Cuisine",
+        description: "In the new era of technology we look in the future with certainty life."
+    },
+    {
+        id: 2,
+        img: MultiCuisine,
+        name: "Easy To Order",
+        description: "In the new era of technology we look in the future with certainty life."
+    },
+    {
+        id: 3,
+        img: MultiCuisine,
+        name: "Fast Delivery",
+        description: "In the new era of technology we look in the future with certainty life."
+    }
+]
+export const ALittleInfoSlideData = [
+    {
+        id: 1,
+        int: "3",
+        name: "Locations"
+    },
+    {
+        id: 2,
+        int: "1995",
+        name: "Founded"
+    },
+    {
+        id: 3,
+        int: "65+",
+        name: "Staff Members"
+    },
+    {
+        id: 4,
+        int: "100%",
+        name: "Satisfied Customers"
     },
 ]

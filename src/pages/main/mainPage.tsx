@@ -15,8 +15,9 @@ import {CheckPicture} from "./img/checkPicture";
 import {MarketImage} from "./img/marketImage";
 import {CustomerCard} from "./helper/ourCustomerCard";
 import {BlogCard} from "./helper/blogCard";
-import {EndComponent} from "../endComponent/endComponent";
+import {EndComponent} from "../helperComponents/endComponent/endComponent";
 import {Header} from "../helperComponents/header/header";
+import {WhatOurCustomerSay} from "../helperComponents/whatOurCustomer say/whatOurCustomerSay";
 
 
 export const MainPage = () => {
@@ -26,9 +27,16 @@ export const MainPage = () => {
     const handleOpenAboutUs = () => {
         navigate('/aboutUs');
     };
+    const handleOpenMenu = () => {
+        navigate('/menu');
+    };
 
     return (
-        <div className={styles.pathContainer}>
+        <div >
+            <div className={styles.warningMessageContainer}>
+                <h1 className={styles.warningMessage}>Версия адаптирована торько для пк с разрешением  экрана не меньше 1610px в длинну</h1>
+            </div>
+            <div className={styles.pathContainer}>
            <Header ide={1}/>
             <div className={styles.landingImg}>
                     <h1 className={styles.landingSlogan}>Best food for your taste</h1>
@@ -36,7 +44,7 @@ export const MainPage = () => {
                         unforgettable moments in our welcoming, culinary haven.</p>
                     <div className={styles.container}>
                         <button className={styles.redBookATableButton}>Book A Table</button>
-                        <button className={styles.exploreMenuButton}>Explore Menu</button>
+                        <button className={styles.exploreMenuButton} onClick={handleOpenMenu}>Explore Menu</button>
                 </div>
             </div>
             <div className={styles.cardsToMenuContainer}>
@@ -124,20 +132,7 @@ export const MainPage = () => {
                     </div>
                 </div>
             </div>
-            <div className={styles.ourCustomersSayContainer}>
-                <div className={styles.ourCustomersSayTitle}>What Our Customers Say</div>
-                <div className={styles.ourCustomerCardsContainer}>
-                    <CustomerCard ide={1} className={styles.ourCustomerCardContainer} className0={styles.ourCustomerCardTitle}
-                                  className1={styles.ourCustomerCardDescription} className2={styles.ourCustomerCardLine} className3={styles.ourCustomerCardPersonIcon}
-                                  className4={styles.ourCustomerCardPersonName} className5={styles.ourCustomerCardPersonPlace} />
-                    <CustomerCard ide={2} className={styles.ourCustomerCardContainer} className0={styles.ourCustomerCardTitle}
-                                  className1={styles.ourCustomerCardDescription} className2={styles.ourCustomerCardLine} className3={styles.ourCustomerCardPersonIcon}
-                                  className4={styles.ourCustomerCardPersonName} className5={styles.ourCustomerCardPersonPlace} />
-                    <CustomerCard ide={3} className={styles.ourCustomerCardContainer} className0={styles.ourCustomerCardTitle}
-                                  className1={styles.ourCustomerCardDescription} className2={styles.ourCustomerCardLine} className3={styles.ourCustomerCardPersonIcon}
-                                  className4={styles.ourCustomerCardPersonName} className5={styles.ourCustomerCardPersonPlace} />
-                </div>
-            </div>
+           <WhatOurCustomerSay />
             <div className={styles.blogContainer}>
                 <div className={styles.blogTitle}>Our Blog & Articles<button className={styles.blogReadAllButton}>Read All Articles</button></div>
                 <div className={styles.blogItemsContainer}>
@@ -157,6 +152,7 @@ export const MainPage = () => {
 
             </div>
             <EndComponent />
+            </div>
         </div>
     );
 };

@@ -1,0 +1,16 @@
+.ourMenuContainer{
+    padding: 214px 152px 133px 152px;
+    background: #FFFFFF;
+}
+.ourMenuItemsContainer{
+    height: 1238px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ourMenuTextContainer{
+
+}
+.ourMenuFilterContainer{
+
+}

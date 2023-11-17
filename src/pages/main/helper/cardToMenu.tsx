@@ -1,5 +1,6 @@
 
 import {cardToMenuData} from "../../../untils/constants";
+import {useNavigate} from "react-router-dom";
 
 type Props ={
     ide: number;
@@ -12,6 +13,10 @@ type Props ={
 }
 
 export const CardToMenu = ({ide, className0, className, className1, className2, className3} : Props) => {
+    const navigate = useNavigate();
+    const handleOpenMenu = () => {
+        navigate('/menu');
+    };
     return (
         <>
             {cardToMenuData.map(item => item.id === ide &&
@@ -19,7 +24,7 @@ export const CardToMenu = ({ide, className0, className, className1, className2, 
                     <item.img className={className} />
                     <p className={className1}>{item.name}</p>
                     <p className={className2}>{item.description}</p>
-                    <button className={className3}>{item.buttonName}</button>
+                    <button className={className3} onClick={handleOpenMenu}>{item.buttonName}</button>
                 </div>
                 )}
         </>
