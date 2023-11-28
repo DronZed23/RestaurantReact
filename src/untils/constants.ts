@@ -14,9 +14,15 @@ import Friedfish from "../pages/main/img/friedFish.png"
 import FriedChicken from "../pages/main/img/friedChicken.png"
 import Pancakes from "../pages/main/img/pancakes.png"
 import Pizza from "../pages/main/img/pizza.png"
-import {styles} from "../pages/helperComponents/header/styles.module.css";
 import {MultiCuisine} from "../pages/aboutUs/img/MultiCuisine";
-
+import Egg from "../pages/menuPage/img/Egg.png"
+import PizzaFromMenu from "../pages/menuPage/img/pizza.png"
+import Martini from "../pages/menuPage/img/Martini.png"
+import ButterscotchCake from "../pages/menuPage/img/ButterscotchCake.png"
+import MintLemonade from "../pages/menuPage/img/MintLemonade.png"
+import ChocolateIcecream from "../pages/menuPage/img/ChoclateIcecream.png"
+import CheeseBurger from "../pages/menuPage/img/CheeseBurger.png"
+import ClassicWaffles from "../pages/menuPage/img/ClassicWaffles.png"
 
 export const cardToMenuData =[{
     id: 1,
@@ -224,5 +230,72 @@ export const ALittleInfoSlideData = [
         id: 4,
         int: "100%",
         name: "Satisfied Customers"
+    },
+]
+
+export const menuCardData = [
+    {
+        id: 1,
+        category: "Breakfast",
+        img: Egg,
+        pricez: "9.99",
+        name: "Fried Eggs",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
+    },
+    {
+        id: 2,
+        category: "Drinks",
+        img: PizzaFromMenu,
+        pricez: "15.99",
+        name: "Martinez Cocktail",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
+    },
+    {
+        id: 3,
+        category: "Main Dishes",
+        img: Martini,
+        pricez: "7.25",
+        name: "Martinez Cocktail",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
+    },
+    {
+        id: 4,
+        category: "Desserts",
+        img: ButterscotchCake,
+        pricez: "20.99",
+        name: "Butterscotch Cake",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
+    },
+    {
+        id: 5,
+        category: "Drinks",
+        img: MintLemonade,
+        pricez: "5.89",
+        name: "Mint Lemonade",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
+    },
+    {
+        id: 6,
+        category: "Desserts",
+        img: ChocolateIcecream,
+        pricez: "18.05",
+        name: "Chocolate Icecream",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
+    },
+    {
+        id: 7,
+        category: "Main Dishes",
+        img: CheeseBurger,
+        pricez: "12.55",
+        name: "Cheese Burger",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
+    },
+    {
+        id: 7,
+        category: "Breakfast",
+        img: ClassicWaffles,
+        pricez: "12.99",
+        name: "Classic Waffles",
+        description: "Made with eggs, lettuce, salt, oil and other ingredients."
     },
 ]
